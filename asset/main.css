@@ -1,0 +1,48 @@
+.home {
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.btn-1 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.col-2 {
+    text-align: center;
+    cursor: pointer;
+    background-color: pink;
+    border: solid 1px #fff !important;
+    height: 40px;
+    margin: auto;
+}
+
+.screen {
+    position: relative;
+    display: block;
+    height: 100px;
+    background-color: pink;
+    border: solid 1px #fff !important;
+}
+
+.calculation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: red;
+    display: block;
+    height: 50px;
+}
+
+.result {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(201, 171, 171);
+    display: block;
+    height: 50px;
+}
